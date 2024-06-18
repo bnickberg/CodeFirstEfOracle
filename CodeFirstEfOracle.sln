@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstEfOracle", "CodeFirstEfOracle\CodeFirstEfOracle.csproj", "{16448A1F-39D2-4B3B-9B40-AD26016721F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfTests", "EfTests\EfTests.csproj", "{D753639C-3549-4EAE-ACA4-7B409E2EB2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16448A1F-39D2-4B3B-9B40-AD26016721F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16448A1F-39D2-4B3B-9B40-AD26016721F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16448A1F-39D2-4B3B-9B40-AD26016721F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16448A1F-39D2-4B3B-9B40-AD26016721F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D753639C-3549-4EAE-ACA4-7B409E2EB2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D753639C-3549-4EAE-ACA4-7B409E2EB2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D753639C-3549-4EAE-ACA4-7B409E2EB2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D753639C-3549-4EAE-ACA4-7B409E2EB2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F115904-53D2-4504-BF86-97B548D094F9}
+	EndGlobalSection
+EndGlobal
