@@ -20,9 +20,9 @@ namespace EfTests
             _container = new ContainerBuilder()
                 .WithImage("gvenzl/oracle-xe:11-slim-faststart")
                 .WithPortBinding(1521, 1521)
-                .WithEnvironment("ORACLE_PASSWORD", "haj")
-                .WithEnvironment("APP_USER", "beo")
-                .WithEnvironment("APP_USER_PASSWORD", "haj")
+                .WithEnvironment("ORACLE_PASSWORD", "Password!123")
+                .WithEnvironment("APP_USER", "user")
+                .WithEnvironment("APP_USER_PASSWORD", "Password!123")
                 .Build();
 
             await _container.StartAsync();
